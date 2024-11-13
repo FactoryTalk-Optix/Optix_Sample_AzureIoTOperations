@@ -1,0 +1,12 @@
+Name: AIOTags
+Id: g=cbf534cff4f90c9c2b98e766e443c497
+Type: FolderType
+Children:
+- Name: Variable1
+  Id: g=76b0ffc2ced2f422b1c76b62d21ca47c
+  Type: BaseDataVariableType
+  DataType: Int32
+- Name: Variable2
+  Id: g=1dcd0f501c6627f36039970059d1dd32
+  Type: BaseDataVariableType
+  DataType: Int32

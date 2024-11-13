@@ -1,0 +1,44 @@
+Name: 'OPC-UA'
+Id: g=0b10d60bde3b720380aa14cd3a556273
+Type: OPCUACategoryFolder
+Children:
+- Name: OPCUAServer
+  Id: g=b63d1c40d913c3391f1769fecbfed943
+  Type: OPCUAServer
+  Children:
+  - Name: EndpointURL
+    Id: g=0b3961c41c20d09d447cb73d680966f9
+    Type: PropertyType
+    DataType: ResourceUri
+    Value: "opc.tcp://win2019:59100"
+  - Name: NodesToPublish
+    Id: g=15d57ad50c71982d62963b1206105356
+    Type: BaseObjectType
+  - Name: MinimumMessageSecurityMode
+    Id: g=960958d21e16b876b2f972ee352ae9e0
+    Type: PropertyType
+    DataType: MessageSecurityModeEnum
+  - Name: MinimumSecurityPolicy
+    Id: g=fe4894faa8f54df5d6bff7f206c5b8c5
+    Type: PropertyType
+    DataType: SecurityPolicyEnum
+  - Name: MaxNumberOfConnections
+    Id: g=43af1e4e3900af94eaf8fcd3a8670edd
+    Type: BaseDataVariableType
+    DataType: UInt32
+    Value: 5
+  - Name: UseNodePathInNodeIds
+    Id: g=112ab8fc84f4d40b5dfd1f6f3c0d47bd
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+  - Name: ServerCertificateFile
+    Id: g=441dc5afefecde53abe7541eceb3b653
+    Type: PropertyType
+    DataType: ResourceUri
+    Value: "ns=18;%PROJECTDIR%/PKI/Own/Certs/optixaiowin2019_cert.der"
+  - Name: ServerPrivateKeyFile
+    Id: g=44f6e664fe0ad731d726ac4e779f2a4a
+    Type: PropertyType
+    DataType: ResourceUri
+    Value: "ns=18;%PROJECTDIR%/PKI/Own/Certs/optixaiowin2019_cert.pem"

@@ -1,0 +1,88 @@
+Project:
+ Name: Optix_Sample_AzureIoTOperations
+ GUID: a35d1ea0f1ad4510cf6da720e79c7e40
+ ProjectNamespaceIndex: 18
+ Description: ''
+ Company: ''
+ Copyright: ''
+ FormatVersion: 1
+ ProductVersion: 1.5
+ CoreVersion: 4.0
+ Dependencies:
+  2:
+   Uri: 'urn:FTOptix:Core:Net'
+   Module: FTOptix.Core.Net
+   Version: 2.0
+  3:
+   Uri: 'urn:FTOptix:OPCUAServer'
+   Module: FTOptix.OPCUAServer
+   Version: 1.1
+  4:
+   Uri: 'urn:FTOptix:OPCUAServer:Net'
+   Module: FTOptix.OPCUAServer.Net
+   Version: 1.1
+  5:
+   Uri: 'urn:FTOptix:RAEtherNetIP'
+   Module: FTOptix.RAEtherNetIP
+   Version: 6.3
+  6:
+   Uri: 'urn:FTOptix:RAEtherNetIP:Net'
+   Module: FTOptix.RAEtherNetIP.Net
+   Version: 2.2
+  7:
+   Uri: 'urn:FTOptix:CommunicationDriver'
+   Module: FTOptix.CommunicationDriver
+   Version: 3.0
+  8:
+   Uri: 'urn:FTOptix:CommunicationDriver:Net'
+   Module: FTOptix.CommunicationDriver.Net
+   Version: 3.0
+  9:
+   Uri: 'urn:FTOptix:CoreBase'
+   Module: FTOptix.CoreBase
+   Version: 4.0
+  10:
+   Uri: 'urn:FTOptix:CoreBase:Net'
+   Module: FTOptix.CoreBase.Net
+   Version: 1.1
+  11:
+   Uri: 'urn:FTOptix:UI'
+   Module: FTOptix.UI
+   Version: 14.2
+  12:
+   Uri: 'urn:FTOptix:UI:Net'
+   Module: FTOptix.UI.Net
+   Version: 14.2
+  13:
+   Uri: 'urn:FTOptix:HMIProject'
+   Module: FTOptix.HMIProject
+   Version: 6.5
+  14:
+   Uri: 'urn:FTOptix:HMIProject:Net'
+   Module: FTOptix.HMIProject.Net
+   Version: 4.8
+  15:
+   Uri: 'urn:FTOptix:NativeUI'
+   Module: FTOptix.NativeUI
+   Version: 2.1
+  16:
+   Uri: 'urn:FTOptix:NativeUI:Net'
+   Module: FTOptix.NativeUI.Net
+   Version: 1.0
+  17:
+   Uri: 'urn:FTOptix:NetLogic'
+   Module: FTOptix.NetLogic
+   Version: 4.0
+ Statistics:
+  TotalNodeCount: 489
+  Objects: 136
+  ObjectTypes: 2
+  Variables: 349
+  VariableTypes: 0
+  DataTypes: 0
+  Methods: 2
+  References: 7
+  ReferenceTypes: 0
+  Files: 20
+ Nodes:
+ - File: Nodes/Optix_Sample_AzureIoTOperations.yaml

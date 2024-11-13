@@ -1,0 +1,69 @@
+Name: Optix_Sample_AzureIoTOperations
+Id: g=647dd57d61be98447a51416564f29ef5
+Type: ProjectFolder
+Children:
+- Name: Localization
+  Id: g=7b32a1db3d93f916c0dfb3692ef09cf0
+  Type: PropertyGroup
+  Children:
+  - Name: Locales
+    Id: g=c22a44842efa10fc7516b102327ad4fd
+    Type: BaseDataVariableType
+    DataType: LocaleId
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+    Value: ["en-US"]
+  - Name: LocaleFallbackList
+    Id: g=92723c645495841ff6244b55d621c3ba
+    Type: BaseDataVariableType
+    DataType: LocaleId
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+    Value: ["en-US"]
+- Name: Authentication
+  Id: g=1afda8a21aba5110234933a5acc18835
+  Type: PropertyGroup
+  Children:
+  - Name: DefaultUserFolder
+    Id: g=9e33dd8aec59b1af1d0c4241cf0f62aa
+    Type: NodePointer
+    DataType: NodeId
+    Value: "/Objects/Optix_Sample_AzureIoTOperations/Security/Users"
+    Children:
+    - Name: Kind
+      Id: g=ff1d8d11d27a94ffd38c48137839bd94
+      Type: PropertyType
+      DataType: NodeId
+      Value: "/Types/ObjectTypes/BaseObjectType/FolderType"
+- Name: PasswordPolicy
+  Id: g=72d9f0d04cbe1f4ca03fa1a6ce59a3d4
+  Type: PasswordPolicy
+  Children:
+  - Name: MaximumPasswordAge
+    Id: g=61124ae130c51668616e632fff62b936
+    Type: BaseDataVariableType
+    DataType: UInt16
+  - Name: EnforcePasswordHistory
+    Id: g=5e11b53974ea46fdad3860e75d79e9c6
+    Type: BaseDataVariableType
+    DataType: Byte
+    Value: 1
+  - Name: MinimumPasswordAge
+    Id: g=050adf86515d5c12680b4683c75d12d2
+    Type: BaseDataVariableType
+    DataType: UInt16
+  - Name: MinimumPasswordLength
+    Id: g=0c67613d35a989a8de198bcea1912249
+    Type: BaseDataVariableType
+    DataType: Byte
+    Value: 8
+- Name: AlarmConfiguration
+  Id: g=a834e4cc8abc5b8223c1fe78ec1d55a0
+  Type: PropertyGroup
+- File: UI/UI.yaml
+- File: Model/Model.yaml
+- File: 'OPC-UA/OPC-UA.yaml'
+- File: CommDrivers/CommDrivers.yaml
+- File: Security/Security.yaml
+- File: Translations/Translations.yaml
+- File: NetLogic/NetLogic.yaml

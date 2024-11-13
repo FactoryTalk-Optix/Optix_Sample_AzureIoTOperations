@@ -1,0 +1,27 @@
+Name: TagImporter
+Id: g=367153cb6841aeda7d518edd87d1dd67
+Type: RAEtherNetIPTagImporter
+OwnerId: ns=2;g=4b1101b73d2ba9fea3e2da436065d2c6
+Children:
+- Name: IgnoredPLCItems
+  Id: g=7bdf8a1dd743a4e2dd3ed181d854201f
+  Type: BaseDataVariableType
+  DataType: BaseDataType
+  ValueRank: OneDimension
+  ArrayDimensions: [0]
+- Name: IgnoredHMIItems
+  Id: g=47d6a2bf366712f2ac556860385e0be8
+  Type: BaseDataVariableType
+  DataType: NodeId
+  ValueRank: OneDimension
+  ArrayDimensions: [0]
+- Name: Mode
+  Id: g=75f59e0de6907beb2f772c22aedfad5f
+  Type: BaseDataVariableType
+  DataType: FetchModes
+  Value: 1
+- Name: FilePath
+  Id: g=c48989d0e385c4b02622ef6ba15e3770
+  Type: BaseDataVariableType
+  DataType: AbsoluteResourceUri
+  Value: "file:///C:/Users/ftisadmin/Documents/Rockwell Automation/FactoryTalk Optix/Projects/aio_optix_tmp2/ProjectFiles/optix_aio_sample.ACD"

@@ -1,0 +1,5 @@
+Name: Model
+Id: g=939c1001676b0949d25ffa8897b08331
+Type: ModelCategoryFolder
+Children:
+- File: AIOTags/AIOTags.yaml

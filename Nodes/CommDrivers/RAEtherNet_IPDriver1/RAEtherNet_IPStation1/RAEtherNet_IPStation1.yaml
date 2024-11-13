@@ -1,0 +1,148 @@
+Name: RAEtherNet_IPStation1
+Id: g=4b1101b73d2ba9fea3e2da436065d2c6
+Type: RAEtherNetIPStation
+Children:
+- Name: Route
+  Id: g=57e62a53fdd1cea96044b1d007ce90d9
+  Type: BaseDataVariableType
+  DataType: String
+  Value: "127.0.0.1"
+- Name: StationStatusVariables
+  Id: g=319cc8017064e600976b4ce298264164
+  Type: PropertyGroup
+  Children:
+  - Name: ActiveDataItems
+    Id: g=5dd110fa13494e81489f47a24ce5532d
+    Type: BaseDataVariableType
+    DataType: UInt32
+    AccessLevel: Read
+  - Name: ActivityCounter
+    Id: g=e741a0667a380c361f858cd43512635a
+    Type: BaseDataVariableType
+    DataType: UInt32
+    AccessLevel: Read
+  - Name: CatalogNumber
+    Id: g=266af1ed8e6f98de30c93128d8943cd0
+    Type: BaseDataVariableType
+    DataType: String
+    AccessLevel: Read
+  - Name: ControllerName
+    Id: g=1eb1168926b991a1351ebb0b590658d0
+    Type: BaseDataVariableType
+    DataType: String
+    AccessLevel: Read
+  - Name: FailedDataItems
+    Id: g=3f29d07e4663a7c1505515665c2e83e4
+    Type: BaseDataVariableType
+    DataType: UInt32
+    AccessLevel: Read
+  - Name: MajorRev
+    Id: g=4faae767340ea86a2fd41a5310a75042
+    Type: BaseDataVariableType
+    DataType: UInt32
+    AccessLevel: Read
+  - Name: MinorRev
+    Id: g=a94fb77b2b094e174604cfd42abd31c8
+    Type: BaseDataVariableType
+    DataType: UInt32
+    AccessLevel: Read
+  - Name: Mode
+    Id: g=e0d95749f6440e506ad0171afc69a52f
+    Type: BaseDataVariableType
+    DataType: String
+    AccessLevel: Read
+  - Name: OptimizedBlocks
+    Id: g=1d0bb2ae71f7f133add0ef000ad15801
+    Type: BaseDataVariableType
+    DataType: UInt32
+    AccessLevel: Read
+  - Name: Path
+    Id: g=f2a077a1d1ad3f8909d64ab46665d874
+    Type: BaseDataVariableType
+    DataType: String
+    AccessLevel: Read
+  - Name: Present
+    Id: g=a1f3b432a37f9fd33403ff75c7853a23
+    Type: BaseDataVariableType
+    DataType: Boolean
+    AccessLevel: Read
+  - Name: ProductCode
+    Id: g=dddbaff67dc153c4a17e960f033afc3e
+    Type: BaseDataVariableType
+    DataType: UInt32
+    AccessLevel: Read
+  - Name: ProductType
+    Id: g=192a83fe246ca44981ef4fdfd35bdb8c
+    Type: BaseDataVariableType
+    DataType: UInt32
+    AccessLevel: Read
+  - Name: RecoverableMajorFaults
+    Id: g=762b48a802bea7c5e7afb0c79e5d2190
+    Type: BaseDataVariableType
+    DataType: Boolean
+    AccessLevel: Read
+  - Name: RecoverableMinorFaults
+    Id: g=1341bd1b60a6f2acdf9abc868bacbea9
+    Type: BaseDataVariableType
+    DataType: Boolean
+    AccessLevel: Read
+  - Name: RunMode
+    Id: g=2d45b47e9f3ccc49d0edb1789d91cef5
+    Type: BaseDataVariableType
+    DataType: Boolean
+    AccessLevel: Read
+  - Name: Synchronized
+    Id: g=d45c33a7642c8aae70b9fcfb811ae750
+    Type: BaseDataVariableType
+    DataType: Boolean
+    AccessLevel: Read
+  - Name: SyncState
+    Id: g=269ec8d85e617e875b6bebd29d60fdd7
+    Type: BaseDataVariableType
+    DataType: String
+    AccessLevel: Read
+  - Name: UnrecoverableMajorFaults
+    Id: g=9d7447158733b4ff7d2b1fa330a0b4cb
+    Type: BaseDataVariableType
+    DataType: Boolean
+    AccessLevel: Read
+  - Name: UnrecoverableMinorFaults
+    Id: g=59e058ab2bb398c3864be295fb43d6dd
+    Type: BaseDataVariableType
+    DataType: Boolean
+    AccessLevel: Read
+  - Name: Vendor
+    Id: g=bb7e64cf09bc258e58898af9d4cd5f29
+    Type: BaseDataVariableType
+    DataType: UInt32
+    AccessLevel: Read
+- Name: OperationCode
+  Id: g=fa4cc75b0c99af495d2a2bf0e0a20899
+  Type: BaseDataVariableType
+  DataType: CommunicationOperationCode
+  AccessLevel: Read
+- Class: Reference
+  Target: ns=7;i=29
+  Direction: Forward
+- Class: Reference
+  Target: ns=7;i=30
+  Direction: Forward
+- Class: Reference
+  Target: ns=7;i=67
+  Direction: Forward
+- Class: Reference
+  Target: ns=7;i=31
+  Direction: Forward
+- Class: Reference
+  Target: ns=7;i=94
+  Direction: Forward
+- Class: Reference
+  Target: ns=7;i=96
+  Direction: Forward
+- File: Tags/Tags.yaml
+- Name: Types
+  Id: g=7ffa04fccbf481f92ef482acef44ed3f
+  Type: FolderType
+  Children:
+  - File: DataTypes/DataTypes.yaml
+  - File: VariableTypes/VariableTypes.yaml

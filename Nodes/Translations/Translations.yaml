@@ -1,0 +1,81 @@
+Name: Translations
+Id: g=552f26a2cd47d22bd00b48180e48b553
+Type: TranslationsCategoryFolder
+Children:
+- Name: LocalizationDictionary1
+  Id: g=b6e3b34fc631e0d2ce3159de42112010
+  Type: LocalizationDictionary
+  DataType: String
+  ValueRank: OneOrMoreDimensions
+  ArrayDimensions: [0,0]
+  Value: 
+   {
+    "Type": 12,
+    "Dimensions": [64,2],
+    "Body": [
+     "","en-US",
+     "Reboot","Reboot",
+     "Mask","Mask",
+     "Apply","Apply",
+     "RebootToCommitChanges","Reboot to commit changes",
+     "DHCPClientEnabled","DHCP client enabled",
+     "DNS2","DNS 2",
+     "IPAddress","IP address",
+     "DNS1","DNS 1",
+     "LAN","LAN",
+     "WAN","WAN",
+     "DefaultGateway","Default gateway",
+     "ApplicationName","Application name",
+     "DeviceName","Device name",
+     "ProductName","Product name",
+     "OS ","OS ",
+     "DisableApplicationAndFirmwareUpdates","Disable application and firmware updates",
+     "LastDeploy","Last deploy",
+     "CatalogNumber","Catalog #",
+     "CPUTemperature","CPU temperature",
+     "CPUUtilization","CPU utilization",
+     "LastReboot","Last reboot",
+     "FreeMemory","Free memory",
+     "ProductInformation","Product Information",
+     "UsedMemory","Used memory",
+     "Diagnostics","Diagnostics",
+     "PowerOnTime","Power on time",
+     "FreeStorage","Free storage",
+     "UsedStorage","Used storage",
+     "Configuration","Configuration",
+     "FTOptixStudio","FT Optix",
+     "OptixPanelFirmware","OptixPanel firmware",
+     "SystemManager","System Manager",
+     "Versions","Versions",
+     "TimeSynchronizationMode","Synchronization mode",
+     "AutoMode","Auto (Remote NTP server)",
+     "ManualMode","Manual",
+     "TimeZone","Time zone",
+     "RemoteNTPServer","Remote NTP server",
+     "LocalNTPServerInterfaces","Local NTP server interfaces",
+     "DateAndTime","Date and time",
+     "AssistancePanelTitle","Assistance",
+     "FTRemoteAccessConnection","FT Remote Access connection",
+     "RegisterToDomainString","To connect, add your device in FT Remote Access.",
+     "Connecting"," Connecting",
+     "Name","Name",
+     "RegisterToDomainPassword","Password:",
+     "RequestsUnavailable","Assistance requests are unavailable for this device while disconnected.",
+     "Disconnected","Disconnected ",
+     "Description","Description",
+     "Yes","Yes",
+     "ContactInformation","Contact information",
+     "No","No",
+     "RequestAssistance","Request Assistance ",
+     "AssistanceRequested"," Assistance Requested",
+     "FillOutFieldsMessage","Fill out all fields to submit a request.",
+     "RequestsDisabled","Assistance requests are disabled for this device. Please contact your system administrator.",
+     "ConnectionPanelTitleAsterisk","Connection *",
+     "ConnectionPanelTitle","Connection",
+     "FTRemoteAccessRuntimeVersion","FT Remote Access runtime version",
+     "RemoteConnections","Remote connections",
+     "Connected"," Connected",
+     "AllowUserToConnect","Allow user \"{0}\" from IP address {1} to connect?",
+     "RegisterToDomainDeviceID","Device ID:"
+    ]
+   }

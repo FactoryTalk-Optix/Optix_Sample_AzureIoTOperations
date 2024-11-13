@@ -1,0 +1,14 @@
+Name: Controller Tags
+Id: g=d1e92f7fca2e1aedef42d86ce5560e62
+Type: FolderType
+Children:
+- Name: counter_tag
+  Id: g=bbd8f59aed4bd113bf983a2149e80a53
+  Type: RAEtherNetIPTag
+  DataType: Int32
+  Children:
+  - Name: SymbolName
+    Id: g=f2a65a21d05461a6632d113ad9b9b9f8
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "counter_tag"

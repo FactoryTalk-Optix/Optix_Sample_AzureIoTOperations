@@ -1,0 +1,655 @@
+Name: Screens
+Id: g=5281b0254b549da0320f930a62eceba4
+Type: ScreensCategoryFolder
+Children:
+- Name: Overview
+  Id: g=d75daafe5809c9c2081a36ecc665e876
+  Supertype: Screen
+  ReferenceType: HasComponent
+  Children:
+  - Name: VerticalAlignment
+    Id: g=7080260f662b6c91ef1196c2c5c9b188
+    Type: BaseVariableType
+    DataType: VerticalAlignment
+    ModellingRule: Optional
+    Value: 3
+  - Name: Label2
+    Id: g=968d52414410fae918704b0093047369
+    Type: Label
+    Children:
+    - Name: Text
+      Id: g=f53ba17342b307dec14b41bd25d7ee2d
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      ModellingRule: Optional
+      Value: {"LocaleId":"en-US","Text":"Read data from control systems\nBuild information models\nServe data through OPC UA to Azure IoT Operations"}
+    - Name: Width
+      Id: g=6939999ed09fd045802ffa66552693dd
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 830.0
+    - Name: Height
+      Id: g=7fd639d4cbd8402432e08d3d4153a1fd
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 56.0
+    - Name: Style
+      Id: g=695e1cc4dd793e7cc420bdff23fcf09e
+      Type: BaseDataVariableType
+      DataType: String
+      ModellingRule: Optional
+      Value: "Title"
+    - Name: TopMargin
+      Id: g=e1a7a766cd2140b8b21d1507a83fcde9
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 50.0
+    - Name: LeftMargin
+      Id: g=8f65c69257452db87d4b8c033b0b81a8
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 90.0
+    - Name: TextHorizontalAlignment
+      Id: g=eb5326b50a2b0759af0e61207f5b33c5
+      Type: BaseVariableType
+      DataType: TextHorizontalAlignment
+      ModellingRule: Optional
+      Value: 1
+    - Name: HorizontalAlignment
+      Id: g=ff5fdd1bb3652fbb635c052b89b2077e
+      Type: BaseVariableType
+      DataType: HorizontalAlignment
+      ModellingRule: Optional
+    - Name: TextVerticalAlignment
+      Id: g=65c48b9f93569068b6e1a08a6f5f7db5
+      Type: BaseVariableType
+      DataType: TextVerticalAlignment
+      ModellingRule: Optional
+      Value: 1
+    - Name: WordWrap
+      Id: g=9091611c2b2fb78877b4d99778bd0aaa
+      Type: BaseDataVariableType
+      DataType: Boolean
+      ModellingRule: Optional
+      Value: true
+  - Name: Height
+    Id: g=97524e8c2a83338f852a9e8846770359
+    Type: BaseVariableType
+    DataType: Size
+    ModellingRule: Optional
+    Value: -1.0
+  - Name: LocalTagsPnl
+    Id: g=0375874ad28b69b45047d4341a789a5e
+    Type: Panel
+    Children:
+    - Name: Width
+      Id: g=3d4d3b0992efb3ce4dac38a740e3655c
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 400.0
+    - Name: Height
+      Id: g=918d710a8f6a593f820e30215ec2001f
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 200.0
+    - Name: LeftMargin
+      Id: g=b670bf82a239054a0e87b75bb1f57e10
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 520.0
+    - Name: TopMargin
+      Id: g=b6729cca50cb5d38ca0be45604e62aff
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 200.0
+    - Name: Rectangle1
+      Id: g=b1a15bfca0a82769320f03168d60ff31
+      Type: Rectangle
+      Children:
+      - Name: Width
+        Id: g=7ad3390158bbc1b9f1ce15e119c3e3a2
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 400.0
+      - Name: Height
+        Id: g=1cf4110dffec94459ca3ccbbe5fb5c62
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 200.0
+      - Name: BorderThickness
+        Id: g=41fe99629549578347d2db1bd71fe0fe
+        Type: BaseDataVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 1.0
+      - Name: CornerRadius
+        Id: g=99b482ceb385860c3b301f4e285f1d59
+        Type: BaseDataVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 5.0
+    - Name: Title
+      Id: g=c76e31f93a20fac39bfb1ce3e600f72d
+      Type: Label
+      Children:
+      - Name: Text
+        Id: g=e4e585290ef62449247cebe67a436395
+        Type: BaseDataVariableType
+        DataType: LocalizedText
+        ModellingRule: Optional
+        Value: {"LocaleId":"en-US","Text":"Local Tags"}
+      - Name: Style
+        Id: g=4d09f28d7c5140fa40c34f3e8d0a4f1d
+        Type: BaseDataVariableType
+        DataType: String
+        ModellingRule: Optional
+        Value: "Title"
+      - Name: Width
+        Id: g=b6ffb34a43887c2f9f46bc8ffaea081e
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 200.0
+      - Name: LeftMargin
+        Id: g=1d64b9f6f67115238be6442826b7b51f
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 10.0
+      - Name: TopMargin
+        Id: g=c64bd04d39b572da386ed446491e6f50
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 10.0
+      - Name: HorizontalAlignment
+        Id: g=287cd567a7d363d562e71ef7014f7e0d
+        Type: BaseVariableType
+        DataType: HorizontalAlignment
+        ModellingRule: Optional
+      - Name: TextHorizontalAlignment
+        Id: g=138cf86a6e2ce957325198c466d65561
+        Type: BaseVariableType
+        DataType: TextHorizontalAlignment
+        ModellingRule: Optional
+    - Name: Label
+      Id: g=2c63a4fdce8c45fc2b34d1ff2839fe67
+      Type: Label
+      Children:
+      - Name: Text
+        Id: g=185071a1d003e479c1f1db9ea2cf0a09
+        Type: BaseDataVariableType
+        DataType: LocalizedText
+        Children:
+        - Name: DynamicLink
+          Id: g=c6864477d028de65a34a36de036823f0
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "/Objects/Optix_Sample_AzureIoTOperations/Model/AIOTags/Variable1@BrowseName"
+      - Name: Style
+        Id: g=eb06008706999cd57670c2620fd3ea32
+        Type: BaseDataVariableType
+        DataType: String
+        ModellingRule: Optional
+        Value: "LabelText"
+      - Name: Width
+        Id: g=7c1effd8730dfd230169fb6da0c2234d
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 200.0
+      - Name: LeftMargin
+        Id: g=280d5fb9611b7235737c09246808e4b8
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 10.0
+      - Name: TopMargin
+        Id: g=801b079794d9f98a9aca901ecfe15300
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 70.0
+    - Name: TextBox1
+      Id: g=5f331bbdb952bfbb280be6da39d784e6
+      Type: TextBox
+      Children:
+      - Name: Text
+        Id: g=8e75284c4b7e032c1525f94ad2394f78
+        Type: BaseDataVariableType
+        DataType: LocalizedText
+        Children:
+        - Name: DynamicLink
+          Id: g=58be96d7a1da98377c8169e3c0881a21
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "/Objects/Optix_Sample_AzureIoTOperations/Model/AIOTags/Variable1"
+          Children:
+          - Name: Mode
+            Id: g=182bcecedf3f476cefc066703c6fe13b
+            Type: BaseVariableType
+            DataType: DynamicLinkMode
+            ModellingRule: Optional
+            Value: 2
+      - Name: Width
+        Id: g=5f287d5b905101e6feb10ffd923cf375
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 110.0
+      - Name: TopMargin
+        Id: g=6aba552ab0b1fb8414a3229b58c40c6c
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 60.0
+      - Name: LeftMargin
+        Id: g=c6bc11e6639b0d4d8691c8de579cf70f
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 220.0
+      - Name: Style
+        Id: g=2535bc78b5618eb5f0ccb02337bfd494
+        Type: BaseDataVariableType
+        DataType: String
+        ModellingRule: Optional
+        Value: "Default"
+    - Name: Image7
+      Id: g=970a2a0741778dbf58aa72a8f25272ab
+      Type: Image
+      Children:
+      - Name: Path
+        Id: g=4613606427c071e980549ffa6b79be86
+        Type: BaseDataVariableType
+        DataType: ResourceUri
+        Value: "ns=18;%PROJECTDIR%/images/OptixBlue.svg"
+      - Name: Width
+        Id: g=1e67e0e396d37115532f43a632b54a9e
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 50.0
+      - Name: Height
+        Id: g=4e10ddaa9135c0b0797f2f870f09b092
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 50.0
+      - Name: LeftMargin
+        Id: g=42c1115d618b163912b8b1fab28ccdce
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 345.0
+      - Name: TopMargin
+        Id: g=c58a0b81109425de371004f0de858b93
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 5.0
+      - Name: DynamicColor
+        Id: g=933621a62662e2a4c4ce3bb2dee88645
+        Type: BaseDataVariableType
+        DataType: Color
+        ModellingRule: Optional
+        Value: "#235d9f"
+  - Name: ControllerTagsPnl1
+    Id: g=66c60a254c1171f93fc76eb111179cd2
+    Type: Panel
+    Children:
+    - Name: Width
+      Id: g=c703fafcdf48edb5a894f1a2e0190205
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 400.0
+    - Name: Height
+      Id: g=f4843cb5d0a30974fefd43f1165c390b
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 200.0
+    - Name: LeftMargin
+      Id: g=3c394ff93e5d371cde042a60988e400d
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 90.0
+    - Name: TopMargin
+      Id: g=0fc80e3f260cb4c9577b3fb324447dba
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 200.0
+    - Name: Rectangle1
+      Id: g=dca1e836009d97d2f56683767d41a93d
+      Type: Rectangle
+      Children:
+      - Name: Width
+        Id: g=de719fbb4359865318df8b631c6df3fd
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 400.0
+      - Name: Height
+        Id: g=1e3f57b3ee81f395cff2bef4bda65a8e
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 200.0
+      - Name: BorderThickness
+        Id: g=0a299165de636ec54506f12bac2617b0
+        Type: BaseDataVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 1.0
+      - Name: CornerRadius
+        Id: g=fc9939124d5a81f464f1d755cc02eb3b
+        Type: BaseDataVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 5.0
+    - Name: Title
+      Id: g=8724f847a7b19947fbd77a7c25040ea8
+      Type: Label
+      Children:
+      - Name: Text
+        Id: g=db5ca13cea2bf720080d3aebb291e4ad
+        Type: BaseDataVariableType
+        DataType: LocalizedText
+        ModellingRule: Optional
+        Value: {"LocaleId":"en-US","Text":"Controller Tags"}
+      - Name: Style
+        Id: g=7302d7d3da9593b55e2545b198223037
+        Type: BaseDataVariableType
+        DataType: String
+        ModellingRule: Optional
+        Value: "Title"
+      - Name: Width
+        Id: g=7244452a3b663f65b454532e3fde7243
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 380.0
+      - Name: LeftMargin
+        Id: g=0467300ecf005e3f262e3d874516fc68
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 10.0
+      - Name: TopMargin
+        Id: g=1766567cf5986aee62cb352d07a6e1d0
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 10.0
+      - Name: HorizontalAlignment
+        Id: g=370f56e5d2b264958af658f64bac6688
+        Type: BaseVariableType
+        DataType: HorizontalAlignment
+        ModellingRule: Optional
+      - Name: TextHorizontalAlignment
+        Id: g=b3ee5a71eee3f0938eeb578b9d9859e7
+        Type: BaseVariableType
+        DataType: TextHorizontalAlignment
+        ModellingRule: Optional
+    - Name: Label
+      Id: g=635cf21c2a4d94dbdbaa6921ed2fcd6f
+      Type: Label
+      Children:
+      - Name: Text
+        Id: g=15ddf35839d4b9bb3fed4a49fb9d92ea
+        Type: BaseDataVariableType
+        DataType: LocalizedText
+        Children:
+        - Name: DynamicLink
+          Id: g=7472a4c9728d271303c4499cf75161bf
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "/Objects/Optix_Sample_AzureIoTOperations/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/counter_tag@BrowseName"
+      - Name: Style
+        Id: g=69a5da61f552e6cbf0ed0c839f41914a
+        Type: BaseDataVariableType
+        DataType: String
+        ModellingRule: Optional
+        Value: "LabelText"
+      - Name: Width
+        Id: g=466457d39e61a2f91ff9a7db05afc0d0
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 200.0
+      - Name: LeftMargin
+        Id: g=24d020bae3cdc84d11281c6bf3e228f1
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 10.0
+      - Name: TopMargin
+        Id: g=54f05b1a53d961def3f0810a2153d811
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 70.0
+    - Name: Value
+      Id: g=59fa9801f3c1e07bb7efc03735567dce
+      Type: Label
+      Children:
+      - Name: Text
+        Id: g=1b2c8d4eedce04da70746fbf5e4e2547
+        Type: BaseDataVariableType
+        DataType: LocalizedText
+        Children:
+        - Name: DynamicLink
+          Id: g=1889427fb0ea55e8de60c1e8a41834cd
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "/Objects/Optix_Sample_AzureIoTOperations/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/counter_tag"
+      - Name: Style
+        Id: g=1d09cb4f4ff7f4036a729543afe3f997
+        Type: BaseDataVariableType
+        DataType: String
+        ModellingRule: Optional
+        Value: "LabelText"
+      - Name: LeftMargin
+        Id: g=810296d8bd1371222930acc035da07b0
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 220.0
+      - Name: TopMargin
+        Id: g=c35294f33b3ca0d9948f55eaa9e02fa5
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 70.0
+    - Name: Image14
+      Id: g=54476f9d9fe99e1568b6bc9a8376713e
+      Type: Image
+      Children:
+      - Name: Path
+        Id: g=45e75c0fd7aab4dd37ca7556f4e7c886
+        Type: BaseDataVariableType
+        DataType: ResourceUri
+        Value: "ns=18;%PROJECTDIR%/images/PRODUCT-Controller 1.svg"
+      - Name: Width
+        Id: g=7a98d2671cb35e3e9f9604032560b3b7
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 50.0
+      - Name: Height
+        Id: g=229f8a89d51a19ba2e1c3c2be6d6335b
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 50.0
+      - Name: TopMargin
+        Id: g=dc7993ed519f9f569c3fa7878395b8d6
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 5.0
+      - Name: HorizontalAlignment
+        Id: g=8d57d8ce784d9b6f69d53889f3732be2
+        Type: BaseVariableType
+        DataType: HorizontalAlignment
+        ModellingRule: Optional
+      - Name: LeftMargin
+        Id: g=31e79308381b4864899913e71dbf2d8d
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 345.0
+      - Name: RightMargin
+        Id: g=ce40a8b8ad45467dc24d4af17fcf912e
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+  - Name: Label1
+    Id: g=cdb5b6ea30481a28bd2188d209cb7a67
+    Type: Label
+    Children:
+    - Name: Text
+      Id: g=fca26ec3e8112393c5bdfc5d149776c9
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      ModellingRule: Optional
+      Value: {"LocaleId":"en-US","Text":"For use when connected to PLC"}
+    - Name: Width
+      Id: g=67bc7e4272529a32a05a76a97bededec
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 390.0
+    - Name: Height
+      Id: g=9e228908f5c48a74c411e004b7272c41
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 20.0
+    - Name: Style
+      Id: g=6ac1a156f67195a145e1e75e0ffddd4f
+      Type: BaseDataVariableType
+      DataType: String
+      ModellingRule: Optional
+      Value: "LabelText"
+    - Name: TopMargin
+      Id: g=af897bfa6f330747e4d5cfd2bc9fc7a9
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 170.0
+    - Name: LeftMargin
+      Id: g=2d173579bcb03496238a4b15e1a8ad2f
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 90.0
+    - Name: TextHorizontalAlignment
+      Id: g=77e67a337e8099110142c9129d1c65ad
+      Type: BaseVariableType
+      DataType: TextHorizontalAlignment
+      ModellingRule: Optional
+    - Name: HorizontalAlignment
+      Id: g=48e0779e4891c46518406a46464dda75
+      Type: BaseVariableType
+      DataType: HorizontalAlignment
+      ModellingRule: Optional
+    - Name: TextVerticalAlignment
+      Id: g=6c8f35dd6620f617b0177e3cc4e185e0
+      Type: BaseVariableType
+      DataType: TextVerticalAlignment
+      ModellingRule: Optional
+      Value: 1
+    - Name: WordWrap
+      Id: g=835548b38bfeb1a142faa5d9680cff0c
+      Type: BaseDataVariableType
+      DataType: Boolean
+      ModellingRule: Optional
+      Value: true
+    - Name: FontItalic
+      Id: g=b537164427cec53b27074fe3668fe8a1
+      Type: BaseDataVariableType
+      DataType: Boolean
+      ModellingRule: Optional
+      Value: true
+  - Name: Label3
+    Id: g=2d7e93702370ca5f2372d3f8b9fb5cdd
+    Type: Label
+    Children:
+    - Name: Text
+      Id: g=153ea9efb53901f0b0bb72e25c7e37c7
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      ModellingRule: Optional
+      Value: {"LocaleId":"en-US","Text":"For use when no PLC connected"}
+    - Name: Width
+      Id: g=0bc83862045d2c8af8b180f6f2216664
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 390.0
+    - Name: Height
+      Id: g=2573ecdb4f85b1950a58af8f317b3e9d
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 20.0
+    - Name: Style
+      Id: g=580cec70b33f1b43bd04a87043fb84d2
+      Type: BaseDataVariableType
+      DataType: String
+      ModellingRule: Optional
+      Value: "LabelText"
+    - Name: TopMargin
+      Id: g=33a33b5480001f52c84bb2c4eb5a8305
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 170.0
+    - Name: LeftMargin
+      Id: g=9b9482024476d7b8cda045216149a363
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 520.0
+    - Name: TextHorizontalAlignment
+      Id: g=c01eed331f05d99c86fb26d14fec8af5
+      Type: BaseVariableType
+      DataType: TextHorizontalAlignment
+      ModellingRule: Optional
+    - Name: HorizontalAlignment
+      Id: g=5d6dec4c28d6bd66b3a4dd9270b59c1f
+      Type: BaseVariableType
+      DataType: HorizontalAlignment
+      ModellingRule: Optional
+    - Name: TextVerticalAlignment
+      Id: g=e72dd824023427b96c2c4619ebb54de1
+      Type: BaseVariableType
+      DataType: TextVerticalAlignment
+      ModellingRule: Optional
+      Value: 1
+    - Name: WordWrap
+      Id: g=63847b3d2ae2ba5a2edc910c5f80224c
+      Type: BaseDataVariableType
+      DataType: Boolean
+      ModellingRule: Optional
+      Value: true
+    - Name: FontItalic
+      Id: g=3056a8dcedd1de37d9c24b36951a808a
+      Type: BaseDataVariableType
+      DataType: Boolean
+      ModellingRule: Optional
+      Value: true

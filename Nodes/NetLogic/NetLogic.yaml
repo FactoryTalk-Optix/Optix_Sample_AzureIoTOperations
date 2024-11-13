@@ -1,0 +1,30 @@
+Name: NetLogic
+Id: g=fe6380f7f1467008fc411e930b2296c4
+Type: NetLogicCategoryFolder
+Children:
+- Name: ImportExportTags
+  Id: g=ae2b6b7fe605bf327b48f964e74851f2
+  Type: NetLogic
+  WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
+  Children:
+  - Name: BehaviourStartPriority
+    Id: g=8c6b45a7daa6cc2465f6b874b7bab1cb
+    Type: BehaviourStartPriorityVariableType
+    DataType: Byte
+    Value: 180
+  - Class: Method
+    Name: ExportToCsv
+    Id: g=b7ebae24fde3e6592b34be19a23149ca
+  - Name: StartingNodeToFetch
+    Id: g=264598e9dd9d8da9e8a668c90594cecb
+    Type: BaseDataVariableType
+    DataType: NodeId
+    Value: "/Objects/Optix_Sample_AzureIoTOperations/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags"
+  - Class: Method
+    Name: ImportOrUpdateFromCsv
+    Id: g=5f22feeb3b00fbbe779a6cfb2d662827
+  - Name: MakeFolderInsteadStruct
+    Id: g=78b846150b52f702d73fc36934518151
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
