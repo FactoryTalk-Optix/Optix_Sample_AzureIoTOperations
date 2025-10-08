@@ -55,7 +55,7 @@ Install a Kubernetes cluster and Azure IoT Operations using instructions in [Dep
 Alternatively see [Appendix A - Automate Azure IoT Operations Install](#appendix-a---automate-azure-iot-operations-install) for a shell script that will automatically install a Kubernetes cluster and deploy Azure IoT Operations to it. 
 
 > [!CAUTION]
-> The script was built and tested against the Preview version and may need adapting for later releases.
+> The script was built and tested against the Preview version and will need adapting to work with the official release.
 
 
 ## Configuration
