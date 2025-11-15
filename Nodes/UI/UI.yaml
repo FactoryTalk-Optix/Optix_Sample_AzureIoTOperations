@@ -228,6 +228,26 @@ Children:
     - Name: Default
       Id: g=15efd93c597ab10fb9c4588ce8d25dc9
       Type: CheckBoxStyle
+  - Name: RectangleStyles
+    Id: g=b510ad488e81939a9a5ce0ac47e7b347
+    Type: BaseObjectType
+    Children:
+    - Name: Default
+      Id: g=4b09e79bf0cbcd359f61017c33c7ac1b
+      Type: RectangleStyle
+      Children:
+      - Name: BorderThickness
+        Id: g=c5dc6f3b19f1f0862ca0b29b07762438
+        Type: BaseDataVariableType
+        DataType: Size
+        Value: 1.0
+  - Name: ScreenStyles
+    Id: g=9296d6f91bb4a32833be1de5f28de37c
+    Type: BaseObjectType
+    Children:
+    - Name: Default
+      Id: g=acfffd1522884408d748f9bc44f31073
+      Type: ScreenStyle
 - Name: RockwellStyleSheet
   Id: g=1ddc74076eb1d91780920659f10040fd
   Type: StyleSheet
@@ -810,16 +830,36 @@ Children:
     Type: BaseDataVariableType
     DataType: Size
     Value: 3.0
+  - Name: RectangleStyles
+    Id: g=c1c41ff820232ba7db4331e740a4bce2
+    Type: BaseObjectType
+    Children:
+    - Name: Default
+      Id: g=6632e4be7bd5a1fc624972cb67523eb0
+      Type: RectangleStyle
+      Children:
+      - Name: BorderThickness
+        Id: g=13cbe14d198058990fe7c14861054b5f
+        Type: BaseDataVariableType
+        DataType: Size
+        Value: 1.0
+  - Name: ScreenStyles
+    Id: g=295cd4bb877165d19323ae764ba3768f
+    Type: BaseObjectType
+    Children:
+    - Name: Default
+      Id: g=e210a0365f68e4ccffab640b31cf079e
+      Type: ScreenStyle
 - Name: NativePresentationEngine
   Id: g=a4c6c8836efdfb58b4ccdf7cc12535eb
   Type: NativePresentationEngine
   ReferenceType: HasOrderedComponent
   Children:
-  - Name: EnableVirtualKeyboard
+  - Name: VirtualKeyboard
     Id: g=6e79474362509c3c31d8d1872fe961ed
     Type: BaseDataVariableType
-    DataType: Boolean
-    Value: true
+    DataType: VirtualKeyboardEngineTypeEnum
+    Value: 1
   - Name: StartWindow
     Id: g=96c9afcdb4e0aeed7ee9c432118afd1f
     Type: NodePointer
@@ -976,12 +1016,6 @@ Children:
           Id: g=72e7b1575fcbe6ff860570e662342a38
           Type: Rectangle
           Children:
-          - Name: BorderThickness
-            Id: g=9ba94a5eb4b8f55dbb0a39f9c98242e0
-            Type: BaseDataVariableType
-            DataType: Size
-            ModellingRule: Optional
-            Value: 1.0
           - Name: LeftMargin
             Id: g=98a04c4f4b32b93c486ac71d7abdb8e8
             Type: BaseVariableType
@@ -1419,3 +1453,4 @@ Children:
     ModellingRule: Optional
 - File: Screens/Screens.yaml
 - File: Panels/Panels.yaml
+- File: Keyboards/Keyboards.yaml

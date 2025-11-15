@@ -19,6 +19,7 @@ FactoryTalk Optix and Azure IoT Operations Integration
 |   Version | Date        | Author        | Changes Made                                              |
 |-----------|-------------|---------------|-----------------------------------------------------------|
 |       1.0   | 12 Nov 2024 | Salma Ghafoor | Initial creation of the document                         |
+|       1.1   | 14 Nov 2025 | Salma Ghafoor | Updated Optix version                           |
 
 
 ## Summary

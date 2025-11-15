@@ -126,12 +126,6 @@ Children:
         DataType: Size
         ModellingRule: Optional
         Value: 200.0
-      - Name: BorderThickness
-        Id: g=41fe99629549578347d2db1bd71fe0fe
-        Type: BaseDataVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 1.0
       - Name: CornerRadius
         Id: g=99b482ceb385860c3b301f4e285f1d59
         Type: BaseDataVariableType
@@ -348,12 +342,6 @@ Children:
         DataType: Size
         ModellingRule: Optional
         Value: 200.0
-      - Name: BorderThickness
-        Id: g=0a299165de636ec54506f12bac2617b0
-        Type: BaseDataVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 1.0
       - Name: CornerRadius
         Id: g=fc9939124d5a81f464f1d755cc02eb3b
         Type: BaseDataVariableType
