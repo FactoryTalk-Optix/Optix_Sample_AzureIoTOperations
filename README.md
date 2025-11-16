@@ -19,26 +19,25 @@ FactoryTalk Optix and Azure IoT Operations Integration
 |   Version | Date        | Author        | Changes Made                                              |
 |-----------|-------------|---------------|-----------------------------------------------------------|
 |       1.0   | 12 Nov 2024 | Salma Ghafoor | Initial creation of the document                         |
-|       1.1   | 14 Nov 2025 | Salma Ghafoor | Updated Optix version                           |
+|       1.1   | 14 Nov 2025 | Salma Ghafoor | Updated FactoryTalk Optix and Azure IoT Operations version|
+
 
 
 ## Summary
 
 This getting started guide outlines the integration of FactoryTalk®️ Optix™️ and Azure IoT Operations, tested on a fluid processing demo machine co-developed by Rockwell Automation and Microsoft.
 
-It covers the architecture, installation, and configuration steps necessary for the integration. The architecture section includes a diagram illustrating the adaptive cloud approach, data plane, and management plane. The installation section provides detailed steps for setting up FactoryTalk Optix and Azure IoT Operations, including a shell script for automating the process. The configuration section explains how to set up FactoryTalk Optix and Azure IoT Operations, including creating applications, configuring OPC UA servers, and generating certificates.
+It covers the architecture, installation, and configuration steps necessary for the integration. The architecture section includes a diagram illustrating the adaptive cloud approach, highlighting the current state and the future vision. It also maps the architecture to the ISA-95 network layers. The installation section provides detailed steps for setting up FactoryTalk Optix and Azure IoT Operations, including a shell script for automating the process. The configuration section explains how to set up FactoryTalk Optix and Azure IoT Operations, including creating applications, configuring OPC UA servers, and generating certificates.
 
 ## Architecture
 
-The adaptive cloud approach that is being adopted by Rockwell Automation and Microsoft is depicted in the diagram below.
+The adaptive cloud approach that is being adopted by Rockwell Automation and Microsoft is depicted in the diagram below. This diagram illustrates the adaptive cloud approach, showing how industrial assets and OT systems connect through edge components like Azure IoT Operations and FactoryTalk Optix to cloud services for real-time intelligence, data analytics, and AI-driven applications. It contrasts the current state with the future vision, emphasizing integration across edge, cloud, and AI platforms for secure, scalable operations.
 
-![Adaptive cloud approach diagram](./images/architecture1.png "adaptive cloud approach")
+![Adaptive cloud approach diagram](./images/architecture_adaptive_cloud_approach_updated.png "adaptive cloud approach")
 
-The diagram below shows how FactoryTalk Optix and Azure IoT Operations integration can be achieved based on the fluid processing demo machine co-developed by Rockwell Automation and Microsoft. This integration can be applied to any other scenario that requires infrastructure for data transfer and edge management.
+The following architecture view goes into more detail and maps the FactoryTalk Optix and Microsoft Adaptive Cloud approach to the ISA-95 network layers, showing how OT systems (devices, PLCs, smart objects) connect through edge clusters and Azure IoT Operations to IT layers for scalable data processing and orchestration. It highlights integration from plant floor to cloud, enabling real-time intelligence, digital twin experiences, and advanced analytics across industrial and enterprise systems.
 
-The diagram is divided into three sections: the top section shows the vision for the adaptive cloud approach, the second section shows what has been achieved on the data plane with a working proof of concept, and the third section shows what can be achieved with the management plane.
-
-![Architecture diagram](./images/architecture2.png "architecture diagram")
+![Architecture diagram](./images/architecture_network_layers_diagram_updated.png "architecture diagram")
 
 ## Installation
 
