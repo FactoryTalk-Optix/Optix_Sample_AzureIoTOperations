@@ -100,18 +100,24 @@ Alternatively, follow the steps outlined below to manually create a FactoryTalk 
 
 - Import the AIO certificates into the project trusted store using the instructions in the FactoryTalk Optix Studio Help.
 
-## Azure IoT Operations
+### Azure IoT Operations
 
 - Import the FactoryTalk Optix certificate into the trusted store using instructions in [Configure OPC UA certificates - Azure IoT Operations Preview | Microsoft Learn](https://learn.microsoft.com/en-us/azure/iot-operations/discover-manage-assets/howto-configure-opcua-certificates-infrastructure?tabs=bash).
-- Open the [Operations Experience](https://iotoperations.azure.com/) site to configure assets and data flow.
-- In the *Asset endpoints* page create an asset endpoint profile to point to the FactoryTalk Optix OPC UA Server.
+  
+- Open the [Operations Experience](https://iotoperations.azure.com/) site to configure a device including the endpoint profile and an asset with the right selection of data points.
+  
+- In the *Devices* page create a device to point to the FactoryTalk Optix OPC UA Server.
 
-  ![List of configured asset endpoint profiles](./images/aio_asset_endpoints.png "List of configured asset endpoint profiles")
+  ![Empty devices page](./images/updated/empty_device_screen.png "Empty devices page")
+  ![Device endpoint configuration](./images/updated/device_endpoint_config_screen.png "Device endpoint configuration")
+  ![Created Optix device](./images/updated/optix_device_screen.png "Created Optix device")
 
-- In the *Assets* page create an asset that uses the endpoint profile and then configure the tag list.
+- In the *Assets* page create an asset that uses the endpoint profile and then configure an data point for it.
 
-  ![List of configured assets](./images/aio_assets.png "List of configured assets")
-  ![Tag configuration settings for an asset](./images/aio_asset_tags.png "Tag configurations for selected asset")
+  ![Empty assets page](./images/updated/empty_asset_screen.png "Empty assets page")
+  ![Asset details configuration](./images/updated/asset_details_config_screen.png "Asset details configuration")
+  ![Asset data point configuration](./images/updated/asset_data_point_config_screen.png "Asset data point configuration")
+  ![Created Optix asset](./images/updated/optix_asset_screen.png "Created Optix asset")
 
 <br>
 
