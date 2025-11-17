@@ -74,8 +74,8 @@ Project:
    Module: FTOptix.NetLogic
    Version: 4.0
  Statistics:
-  TotalNodeCount: 497
-  Objects: 145
+  TotalNodeCount: 496
+  Objects: 144
   ObjectTypes: 2
   Variables: 348
   VariableTypes: 0
@@ -83,6 +83,6 @@ Project:
   Methods: 2
   References: 7
   ReferenceTypes: 0
-  Files: 21
+  Files: 20
  Nodes:
  - File: Nodes/Optix_Sample_AzureIoTOperations.yaml
